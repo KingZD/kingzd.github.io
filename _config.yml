@@ -92,7 +92,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ##theme: landscape
-theme: miho
+theme: hexo-theme-miho
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
