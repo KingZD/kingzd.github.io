@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Zed的个人博客
-subtitle:
-description:
+title: Zed的个人 博客
+subtitle: 个人博客
+description: "独乐乐不如众乐乐"
 keywords:
 author: Zed
 language:
@@ -31,7 +31,8 @@ jsonContent:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kingzd.github.io/
+url: http://localhost:4000/ 
+##https://kingzd.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -91,7 +92,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-miho
+theme: hexo-theme-xups
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

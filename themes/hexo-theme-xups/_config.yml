@@ -47,7 +47,17 @@ favicon: /favicon.ico
 #----------------------------
 # 头像url
 #----------------------------
-avatar: /img/jelon.jpg
+avatar: /img/804033.png
+
+#----------------------------
+# 全局作者
+#----------------------------
+author: Zed
+
+#----------------------------
+# content 文章描述字数
+#----------------------------
+content-size: 120
 
 #----------------------------
 # 是否开启分享
@@ -59,17 +69,17 @@ share: true
 #----------------------------
 weibo_show:
   enable: false
-  code: <iframe id="myWeibo" width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=2376003112&verifier=796ea597&dpc=1"></iframe>
+  code: <iframe id="myWeibo" width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=xxxx&verifier=796ea597&dpc=1"></iframe>
 
 #----------------------------
 # 是否开启评论
 #----------------------------
 comment:
   enable: true
-  owner: jangdelong
-  repo: blog_comments
-  client_id: b08ed25e52c57993e69c
-  client_secret: 1cb9545488f0380904b87350e7c5a270ae03bab7
+  owner: kingzd   #你的 GitHub ID
+  repo: repo   #存储评论的 repo
+  client_id: f56fec6294e9b3dafbb4 #client ID
+  client_secret: d2c7d3358239afe9c108647c36918bb0d7ab2dfa  #client secret
 
 #----------------------------
 # 是否开启云标签
@@ -83,17 +93,13 @@ friends:
   enable: true
   list:
     1:
-      name: Haoren博客
-      title: 网络安全博客
-      link: http://blog.sina.com.cn/u/1825875765
-    2:
-      name: Maxwell博客
+      name: 看雪论坛
       title: 技术博客
-      link: http://blog.csdn.net/yeweiouyang
-    3:
-      name: 朱旋个人博客
-      title: 技术博客
-      link: http://xuanzh.cc/
+      link: https://bbs.pediy.com/user-804033.htm
+    #2:
+    #  name: Haoren博客
+    # title: 网络安全博客
+    #  link: http://blog.sina.com.cn/u/1825875765
 
 #----------------------------
 # 头部链接
@@ -104,23 +110,17 @@ head_links:
     sup:
       0:
         name: Github
-        link: https://github.com/jangdelong
-      last:
-        name: Hosted by Coding Pages
-        link: https://pages.coding.me
+        link: https://github.com/kingzd
     sub:
       sinaweibo:
-        name: 新浪微博
-        link: http://weibo.com/jangdelong
-      qqweibo:
-        name: Facebook
-        link: https://www.facebook.com/profile.php?id=100011855760219&ref=bookmarks
+        name: 看雪论坛
+        link: https://bbs.pediy.com/user-804033.htm
 #----------------------------
 # SEO
 #----------------------------
 SEO:
-  keywords: Jelon, 前端, Web, 张德龙, 前端开发
-  description: Jelon个人前端小站
+  keywords: Zed, 前端, Web, Android,逆向
+  description: Zed个人小站
 
 #----------------------------
 # 百度分析

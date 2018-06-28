@@ -1,12 +1,21 @@
 <!-- 自定义留言页 -->
+<p class="text-center">
+  如果觉得博客对您有用，欢迎赞赏
+</p>
 
 <p class="text-center">
   <img style="width: 258px; height: 258px; border: 1px solid #eee; padding: 0; border-radius: 3px;" src="<%- url_for('img/wechat_pay.png') %>">
+
+  <img style="width: 258px; height: 258px; border: 1px solid #eee; padding: 0; border-radius: 3px;" src="<%- url_for('img/alipay.jpg') %>">
+</p>
+<p class="text-center">
+<input disabled="disabled" style="width: 258px; height: auto; text-align:center; border:0px ;background-color:#ffffff" value="微信打赏"/>
+<input disabled="disabled" style="width: 258px; height: auto; text-align:center; border:0px ;background-color:#ffffff" value="支付宝打赏"/>
 </p>
 
-<p class="text-center">
-  如果觉得博客对您有用，欢迎微信赞赏
-</p>
+
+
+
 <% if (theme.comment.enable) { %>
   <%- partial('../_partial/post/comment') %>
 <% } %>
