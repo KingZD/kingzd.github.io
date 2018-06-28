@@ -31,8 +31,8 @@ jsonContent:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000/ 
-##https://kingzd.github.io/
+##url: http://localhost:4000/ 
+url: https://kingzd.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
